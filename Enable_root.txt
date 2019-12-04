@@ -1,0 +1,12 @@
+1: Goto :vim /etc/ssh/sshd_config
+2: make PermitRootLogin yes
+3: save it
+4: service sshd restart
+5: sudo passwd >> Enter password
+
+
+
+
+6. Goto ssh root@ip_add
+7. pip3 install pymongo
+8. pip3 install kafka-python
